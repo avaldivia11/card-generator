@@ -4,7 +4,9 @@ body {
   background: green;
   box-sizing: border-box;
 }
-
+.number {
+  color: black;
+}
 .card {
   display: inline-block;
   margin: auto;
@@ -32,10 +34,12 @@ body {
 .card.spade:before,
 .card.spade:after {
   content: "♠";
+  color: black;
 }
 .card.club:before,
 .card.club:after {
   content: "♣";
+  color: black;
 }
 .card.hearts:before,
 .card.hearts:after {
